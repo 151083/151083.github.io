@@ -24,7 +24,7 @@ function draw()
 	ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
 	ctx.fillRect(0, 0, c.width, c.height);
 	
-	ctx.fillStyle = "#0F0"; //green text
+	ctx.fillStyle = "#0F0";
 	ctx.font = font_size + "px arial";
 
 	for(var i = 0; i < drops.length; i++)
@@ -42,5 +42,7 @@ function draw()
 		drops[i]++;
 	}
 }
+ context.font = "40pt Calibri";
+         context.fillText("HELLO!", 20, 20);
 
 setInterval(draw, 33);
