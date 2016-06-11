@@ -42,7 +42,6 @@ function draw()
 		drops[i]++;
 	}
 }
- context.font = "40pt Calibri";
-         context.fillText("HELLO!", 20, 20);
+
 
 setInterval(draw, 33);
